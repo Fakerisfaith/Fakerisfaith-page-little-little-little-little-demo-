@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nike网上商城</title>
+    <script src="http://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nike</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">JORDAN <span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a href="#">NBA</a>
+                </li>
+                <li>
+                    <a href="#">NikeLab</a>
+                </li>
+                <li>
+                    <a href="#">SNKRS新品预览</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Nike 主推鞋款<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">主推鞋款</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">DYNAMO系列</a>
+                        </li>
+                        <li>
+                            <a href="#">AIR MAX系列</a>
+                        </li>
+                        <li>
+                            <a href="#">HUARACHE系列</a>
+                        </li>
+                        <li>
+                            <a href="#">AIR FORCE 1 系列</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">NIKEiD专属定制 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">篮球战靴系列定制</a>
+                        </li>
+                        <li>
+                            <a href="#">球员设计系列定制</a>
+                        </li>
+                        <li>
+                            <a href="#">NBA系列定制</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Pendleton羊毛系列定制</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">所有NIKEiD定制</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">登录 / 注册</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="img/nike1.png">
+        </div>
+        <div class="item">
+            <img src="img/nike2.png">
+        </div>
+        <div class="item">
+            <img src="img/nike3.png">
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+</div>
+
+<div class="body_0">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 ">
+                <h2>筛选</h2>
+                <ul class="list-group" style="font-family: 微软雅黑;font-size: 22px;font-weight: bold">
+                    <li class="list-group-item">系列<span class="badge">14</span></li>
+                    <li class="list-group-item">季节<span class="badge">75</span></li>
+                    <li class="list-group-item">儿童<span class="badge">7</span></li>
+                    <li class="list-group-item">产品分类<span class="badge">5</span></li>
+                    <li class="list-group-item">尺码<span class="badge">12</span></li>
+                    <li class="list-group-item">价格<span class="badge">99</span></li>
+
+                </ul>
+
+            </div>
+            <div class="col-xs-8 ">
+                <div>
+                    <br>
+                    <button type="button" class="btn btn-default">&emsp;默认<span class="glyphicon glyphicon-menu-down"></span>&emsp;</button>&emsp;
+                    <button type="button" class="btn btn-default">&emsp;价格 <span class="glyphicon glyphicon-menu-down"></span>&emsp;</button>&emsp;
+                    <button type="button" class="btn btn-default">&emsp;喜欢<span class="glyphicon glyphicon-menu-down"></span>&emsp;</button>&emsp;
+                    <button type="button" class="btn btn-default">&emsp;畅销<span class="glyphicon glyphicon-menu-down"></span>&emsp; </button>&emsp;
+
+                </div>
+                <table>
+                    <tr>
+                        <br>
+                        <td colspan="3"><img src="img/xx1.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><br>立即定制</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                        </br>   【男女同款】Chuck 70</br>￥1,099</p></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="3"><img src="img/xx2.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td><br>立即定制</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                            </br>   【男女同款】Chuck 70</br>￥1,099</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><img src="img/xx3.jpg"></td>
+                    </tr>
+                    <tr>
+
+                        <td><br>立即定制</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                            </br>  【男女同款】Chuck 70</br>￥1,099</p></td>
+                        <td><br>★★★★★</br>Nike Air Zoom Pegasus
+                            </br>   【男女同款】Chuck 70</br>￥1,099</p></td>
+                    </tr>
+                </table>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 "></div>
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <hr>
+    Copyright © 20171508135 付强. All rights reserved.
+    <hr>
+</div>
+</body>
+<style>
+    .footer {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.body_0 {
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    div.item img {
+        width: 100%;
+    }
+
+    div#carousel-example-generic {
+        width: 65%;
+        margin: 0 auto;
+    }
+</style>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<style type="text/css">			
+			#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8{
+				display: none;
+			}
+			#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+				background-image: url(img/message-bar.gif);
+				background-repeat: no-repeat;
+			}
+			span{				
+				margin-left: 251px;
+				font-size: 15px;
+				opacity: 0.7;				
+			}
+			ul li{
+				list-style: none;
+				background-image: url(img/message-bar.gif);
+				background-repeat: no-repeat;
+			}
+			ul li span{
+				float: right;
+			}
+			a{
+			padding-left: -100px;
+					}
+			#Div_2{
+				width: 423px;
+			}
+			#a1{
+				position: absolute;
+				left: 180px;
+			}
+			#a2{
+				background-repeat: no-repeat;
+			}
+			#Div_3 p{
+				background: url(img/tall-down-arrow.gif) no-repeat 340px;
+				
+	
+			
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="Div_2">
+				<ul>
+					<li><div id="div1"><b>功夫熊猫</b><span>5分钟前</span><div id="d0"> <p>Hello Nick</p><p>111111111111111111111111111</p></div></div></li>
+					<li><div id="div2"><b>小马哥:</b><span>10分钟前</span><div id="d1"> <p>Hello Nick</p><p>111111111111111111111111111</p></div> <br /></div></li>
+					<li><div id="div3"><b>一休:</b><span>22分钟前</span><div  id="d2"><p>Hello Nick</p><p>111111111111111111111111111</p></div> <br /></div></li>
+					<li><div id="div4"><b>么么哒:</b><span>23分钟前</span><div  id="d3"><p>Hello Nick</p><p>111111111111111111111111111</p> </div><br /></div></li>
+					<li><div id="div5"><b>女人情：</b><span>24分钟前</span><div  id="d4"><p>Hello Nick</p><p>111111111111111111111111111</p> </div></div></li>
+					<li><div id="div6"><b>小苹果：</b><span>25分钟前</span><div  id="d5"><p>Hello Nick</p><p>111111111111111111111111111</p> </div></div></li>
+					<li><div id="div7"><b>香水有毒：</b><span style="margin-left: 240px;">1小时前</span><div  id="d6"><p>Hello Nick</p><p>111111111111111111111111111</p> </div></div></li>
+					<li><div id="div8"><b>旋风小子：</b><span  style="margin-left: 240px;">2小时前</span><div  id="d7"><p>Hello Nick</p><p>111111111111111111111111111</p> </div></div></li>
+					<li><div id="div9"><b>处处留情：</b><span  style="margin-left: 255px;">1天前</span><div  id="d8"><p>Hello Nick</p><p>111111111111111111111111111</p> </div></div></li>
+				</ul>
+		
+				<div id="Div_3">
+					<a id="a1" >折叠所有</a>
+					<p id="a2" ><span> 显示所有评论 </span></p>					
+				</div>		
+		</div>
+		<script>
+		$(function(){			
+			var i=$("#Div_2 ul li:gt(4)");
+				i.hide();
+			$("#a2").click(function(){				
+				if($("#a2 span").text()=="显示所有评论"){					
+					i.show();
+					$("#a2 span").text("只显示5条");
+					$("#a2 ").css("background","url(img/tall-up-arrow.gif) no-repeat 320px");
+				
+				}else{						
+					i.hide();
+					$("#a2 span").text("显示所有评论");
+					
+					$("#a2 ").css("background","url(img/tall-down-arrow.gif) no-repeat 340px");
+									
+				}
+			});			
+			$("#div1").click(function(){
+				$("#d0").toggle();
+			});
+			$("#div2").click(function(){
+				$("#d1").toggle();
+			});
+			$("#div3").click(function(){
+				$("#d2").toggle();
+			});
+			$("#div4").click(function(){
+				$("#d3").toggle();
+			});
+			$("#div5").click(function(){
+				$("#d4").toggle();
+			});
+			$("#div6").click(function(){
+				$("#d5").toggle();
+			});
+			$("#div7").click(function(){
+				$("#d6").toggle();
+			});
+			$("#div8").click(function(){
+				$("#d7").toggle();
+			});
+			$("#div9").click(function(){
+				$("#d8").toggle();
+			});					
+			$("#a1").click(function(){
+				$("#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d0").hide();
+			});		
+		});
+	</script>
+	</body>
+</html>

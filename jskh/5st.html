@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+			
+		<style type="text/css">
+		.row{
+			width: 700px;
+			height: 250px;
+			
+		}
+			#d2{
+				position: absolute;
+				left: 590px;
+				top: 30px;
+			}
+			ul li{
+				list-style: none;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="row" style="border: solid aliceblue;">
+			<div class="col-md-6" id="d1">
+					<img id="img1" src=""/>
+			</div>
+			<div id="d2">
+				<ul>
+					<li><img src="img/btn_02.jpg" /></li>
+					<li><img src="img/btn_02.jpg"/></li>
+					<li><img src="img/btn_03.jpg" /></li>
+					<li><img src="img/btn_04.jpg" /></li>
+				</ul>														
+			</div>
+			
+		</div>
+		
+		<script>
+		$(function(){
+			var idx = 0;
+        
+       
+
+			$("ul li").hover(function(){
+				$("#d1").children().removeAttr("src");
+				
+				var x=$("ul li").index(this);
+				
+				switch(parseInt(x)){
+					case 0:
+					$("#img1").attr("src","img/02.jpg");
+					break;
+					case 1:
+					$("#img1").attr("src","img/02.jpg");
+					break;
+					case 2:
+					$("#img1").attr("src","img/03.jpg");
+					break;
+					case 3:
+					$("#img1").attr("src","img/04.jpg");
+					break;
+				}
+			});
+			
+			var imgArray = new Array("img/02.jpg","img/02.jpg", "img/03.jpg","img/04.jpg");
+			var index=0;
+			setInterval(function(){
+				$("#img1").attr("src",imgArray[index]);
+				if(index>=imgArray.length){
+					index=0;
+				}
+				else{
+					index++;
+				}
+			},1000);
+		});
+			
+		</script>
+	</body>
+</html>

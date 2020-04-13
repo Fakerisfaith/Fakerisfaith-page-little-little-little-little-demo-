@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<style type="text/css">
+			
+         .tab_box div {
+            border: 1px solid lightsteelblue;
+            height: 150px;
+            width: 300px;
+        }
+      
+       
+		</style>
+	</head>
+	<body>
+		<button id="b1">时事</button>
+		<button id="b2">体育</button>
+		<button id="b3">娱乐</button>
+		 <div class="tab_box">
+            <div id="d1">时事</div>
+            <div  id="d2">体育</div>
+            <div id="d3">娱乐</div>
+        </div>
+        <script>
+        	$(function(){
+				$("#d2,#d3").hide();
+				$("#b1").click(function(){
+					
+					$("#d1").show();
+				
+					
+					$("#d2,#d3").hide();
+					
+				});
+				$("#b2").click(function(){
+					$("#d2").show();
+					
+					
+					$("#d1,#d3").hide();
+					
+				});
+				$("#b3").click(function(){
+					$("#d3").show();
+					
+					$("#d1,#d2").hide();
+				});
+			});
+        	
+        </script>
+	</body>
+</html>

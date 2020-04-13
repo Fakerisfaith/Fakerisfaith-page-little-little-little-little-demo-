@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<style type="text/css">
+			.div_2{
+				 margin: auto;
+			}
+			.div_1{
+				align-content: center;
+				width: 500px;
+				height: 200px;
+				overflow-y:scroll; 
+				border-top: 1.5px solid darkgray;
+				border-bottom: 1.5px solid darkgray;
+			}
+			
+			#span1, #span2{
+				width: 500px;
+				background-color: #A9A9A9;
+				color: white;
+				display:block;
+			}
+			#span2{
+				position: relative;
+				bottom: -2px;
+			}
+			#tx1{
+				position: relative;
+				bottom: -5px;
+			}
+			span{
+				display:block;
+				width: 479px;
+				font-weight: normal;
+				border-bottom: 1px dashed darkgrey;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form>
+			<div class="div_2">
+			<div class="div_1">				
+				<b id="s1"></b><br /> 				
+			</div>
+			<b>Message</b><br/>
+			<b id="span1">昵称</b>
+			<input type="text" id="t1" value="" style="width: 495px;" />
+			<b id="span2" >留言内容</b>
+			<textarea id="tx1" value="" style="width: 495px; height: 90px; "></textarea><br/>			
+			<input type="button" id="btn1" style="width: 500px;" value="单机这里点击提交留言"/>
+			</div>
+		</form>
+		<script>
+			$(document).ready(function(){
+				$("input").blur();
+				$("textarea").blur();
+			});
+			$("#t1").blur(function(){
+				if($("#t1").val()=="你的昵称"||$("#t1").val()==""){
+					$(this).val("你的昵称");
+				}
+			}).focus(function(){
+				$(this).val("");
+			});
+			$("#tx1").blur(function(){
+				if($("#tx1").val()=="你要说的话"||$("#tx1").val()==""){
+					$(this).val("你要说的话");
+				}
+			}).focus(function(){
+				$(this).val("");
+			});
+			$("#btn1").click(function(){
+				var name=$("#t1").val();
+				var tx=$("#tx1").val();
+				if(name=="你的昵称"||name==""){
+						alert("请输入昵称");						
+					}else if(tx=="你要说的话"||tx==""){
+						alert("请输入你要说的话");
+					}					
+					else{											
+					 $("#s1").append("<b>"+name+"</b>"+"<br/>");
+					 $("#s1").append("<span>"+tx+"</span>");
+					}
+			});
+		</script>
+		
+	</body>
+</html>

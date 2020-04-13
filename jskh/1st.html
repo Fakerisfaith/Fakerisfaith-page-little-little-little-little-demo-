@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+	</head>
+	<body>
+		<p id="p1"><img src="img/img2-lg.jpg" /></p>
+		<p id="p2"><img src="img/img3-lg.jpg" /></p>
+		<p id="p3"><img src="img/img4-lg.jpg" /></p>
+		<p id="p4"><img src="img/img5-lg.jpg" /></p>
+		<p id="p5"><img src="img/img6-lg.jpg" /></p>
+		<div id="d1">
+			<br />
+			<img src="img/img2-thumb.jpg" id="i1" />
+			<img src="img/img3-thumb.jpg" id="i2" />
+			<img src="img/img4-thumb.jpg" id="i3" />
+			<img src="img/img5-thumb.jpg" id="i4" />
+			<img src="img/img6-thumb.jpg" id="i5" />
+		</div>
+		<script>
+			$("#p2").hide();
+			$("#p1").hide();
+			$("#p3").hide();
+			$("#p4").hide();
+			$("#p5").hide();
+			$(function(){
+				$("#i1").bind("click", function() {
+					$("#p2").hide();
+					$("#p1").hide();
+					$("#p3").hide();
+					$("#p4").hide();
+					$("#p5").hide();
+					$("#p1").toggle();
+				});
+				$("#i2").bind("click", function() {
+					$("#p2").hide();
+					$("#p1").hide();
+					$("#p3").hide();
+					$("#p4").hide();
+					$("#p5").hide();
+					$("#p2").toggle();
+				});
+				$("#i3").bind("click", function() {
+					$("#p2").hide();
+					$("#p1").hide();
+					$("#p3").hide();
+					$("#p4").hide();
+					$("#p5").hide();
+					$("#p3").toggle();
+				});
+				$("#i4").bind("click", function() {
+					$("#p2").hide();
+					$("#p1").hide();
+					$("#p3").hide();
+					$("#p4").hide();
+					$("#p5").hide();
+					$("#p4").toggle();
+				});
+				$("#i5").bind("click", function() {
+					$("#p2").hide();
+					$("#p1").hide();
+					$("#p3").hide();
+					$("#p4").hide();
+					$("#p5").hide();
+					$("#p5").toggle();
+				});
+				
+				
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70f020bd-fe10-4fca-9eee-1edbbae68550" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1319352543">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="6" />
+          <entry key="jpg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="6" />
+          <entry key="Image" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="14" />
+          <entry key="html" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="14" />
+          <entry key="HTML" value="99" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BlogPage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="73" column="22" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="73" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bolgpeople.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-484">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/bloglist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="89" column="97" selection-start-line="89" selection-start-column="97" selection-end-line="89" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html\&gt;\n\	\&lt;head\&gt;\n\	\	\&lt;meta charset\=\&quot;utf\-8\&quot; \/\&gt;\n\	\	\&lt;title\&gt;博客首页\&lt;\/title\&gt;\n\	\	\&lt;link rel\=\&quot;stylesheet\&quot; type\=\&quot;text\/css\&quot; href\=\&quot;css\/style\.css\&quot; \&gt;\n\	\&lt;\/head\&gt;\n\	\&lt;body\&gt;\n     \	\&lt;header\&gt;\n\	\	\&lt;h1\&gt;非淡泊无以明志\，非宁静无以致远\&lt;\/h1\&gt;\n\	\	\&lt;h2\&gt;小学生\，梦想家夏致远\&lt;\/h2\&gt;\n\	\	\n\	\	\&lt;nav\&gt;\n\	\	\	\n\	\	\	\&lt;ul\&gt;\n\	\	\	\	\&lt;li id\=\&quot;a\&quot;\&gt;\n\	\	\	\	\	\&lt;a href\=\&quot;index\.html\&quot;\&gt;首页\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/li\&gt;\n\	\	\	\	\&lt;li class\=\&quot;son3\&quot;\&gt;\n\	\	\	\	\	\&lt;a href\=\&quot;pages\/bloglist\.html\&quot;\&gt;博文列表\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/li \&gt;\n\	\	\	\	\&lt;li class\=\&quot;son3\&quot;\&gt;\n\	\	\	\	\	\&lt;a href\=\&quot;pages\/blogphoto\.html\&quot;\&gt;相册\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/li\&gt;\n\	\	\	\	\&lt;li class\=\&quot;son4\&quot;\&gt;\n\	\	\	\	\	\&lt;a href\=\&quot;pages\/bolgpeople\.html\&quot;\&gt;个人资料\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/li\&gt;\n\	\	\	\&lt;\/ul\&gt;\	\	\n\	\	\&lt;\/nav\&gt;\n\	\	\n\	\	\&lt;\/header\&gt;\n\	\	\n\	\	\&lt;div id\=\&quot;content\&quot;\&gt;\n\	\	\	\n\	\	\&lt;div id\=\&quot;son1\&quot;\&gt;\n\	\	\	\n\	\	\	\&lt;section id\=\&quot;a1\&quot;\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;h2 class\=\&quot;b1\&quot;\&gt;个人资料\&lt;\/h2\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;div\&gt;\n\	\	\	\	\	\&lt;img src\=\&quot;img\/touxiang\.jpg\&quot;\;\/\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;h3\&gt;傅强\&lt;\/h3\&gt;\n\	\	\	\	\	\	\n\	\	\	\	\	\	\&lt;div class\=\&quot;h1\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;span\&gt;加好友\&lt;\/span\&gt;\&lt;span\&gt;写留言\&lt;\/span\&gt;\&lt;span\&gt;发纸条\&lt;\/span\&gt;\&lt;span\&gt;加关注\&lt;\/span\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\n\	\	\	\	\	\	\&lt;div class\=\&quot;h2\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;h2\&gt;关注人气\：4399\&lt;\/h2\&gt;\n\	\	\	\	\	\	\	\&lt;h2\&gt;博文访问\：4399\&lt;\/h2\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\n\	\	\	\&lt;\/section\&gt;\n\	\	\	\n\	\	\	\&lt;section id\=\&quot;a2\&quot;\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;h2 class\=\&quot;b1\&quot;\&gt;博文推荐\&lt;\/h2\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;div\&gt;\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;水调歌头\·明月几时有\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;念奴娇\·赤壁怀古\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;满江红\·写怀\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;破阵子\·为陈同甫赋壮词以寄之\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;西江月\·夜行黄沙道中\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;渔家傲\·秋思\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;将进酒\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;侠客行\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\n\	\	\	\&lt;\/section\&gt;\n\	\	\	\n\	\	\	\&lt;\/div\&gt;\n\	\	\	\n\	\	\	\&lt;div id\=\&quot;son2\&quot;\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;section id\=\&quot;a3\&quot;\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;h2 class\=\&quot;b1\&quot;\&gt;博文精选\&lt;\/h2\&gt;\n\	\	\	\	\&lt;article\&gt;\n\	\	\	\	\	\&lt;h2\&gt;水调歌头\·明月几时有\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;h3\&gt;发表时间\：2018\-11\-22\&lt;\/h3\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;div class\=\&quot;pare\&quot;\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;明月几时有\？把酒问青天\。不知天上宫阙\，今夕是何年\。我欲乘风归去\，又恐琼楼玉宇\，高处不胜寒\。起舞弄清影\，何似在人间\？\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;转朱阁\，低绮户\，照无眠\。不应有恨\，何事长向别时圆\？人有悲欢离合\，月有阴晴圆缺\，此事古难全\。但愿人长久\，千里共婵娟\。\&lt;\/p\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;阅读\&lt;i\&gt;\(400\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;评论\&lt;i\&gt;\(300\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;转发\&lt;i\&gt;\(200\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;收藏\&lt;i\&gt;\(100\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;查看全文\&amp;gt\;\&amp;gt\;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/article\&gt;\n\	\	\	\n\	\	\	\	\&lt;article\&gt;\n\	\	\	\	\	\&lt;h2\&gt;念奴娇\·赤壁怀古\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;h3\&gt;发表时间\：2018\-11\-22\&lt;\/h3\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;div class\=\&quot;pare\&quot;\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;大江东去\，浪淘尽\，千古风流人物\。故垒西边\，人道是\，三国周郎赤壁\。乱石穿空\，惊涛拍岸\，卷起千堆雪\。江山如画\，一时多少豪杰\。\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;遥想公瑾当年\，小乔初嫁了\，雄姿英发\。羽扇纶巾\，谈笑间\，樯橹灰飞烟灭\。故国神游\，多情应笑我\，早生华发\。人生如梦\，一尊还酹江月\。\&lt;\/p\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;阅读\&lt;i\&gt;\(400\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;评论\&lt;i\&gt;\(300\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;转发\&lt;i\&gt;\(200\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;收藏\&lt;i\&gt;\(100\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;查看全文\&amp;gt\;\&amp;gt\;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/article\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;article\&gt;\n\	\	\	\	\	\&lt;h2\&gt;满江红\·写怀\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;h3\&gt;发表时间\：2018\-11\-22\&lt;\/h3\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;div class\=\&quot;pare\&quot;\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;怒发冲冠\，凭栏处\、潇潇雨歇\。抬望眼\，仰天长啸\，壮怀激烈\。三十功名尘与土\，八千里路云和月\。莫等闲\，白了少年头\，空悲切\！\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;靖康耻\，犹未雪\。臣子恨\，何时灭\！驾长车\，踏破贺兰山缺\。壮志饥餐胡虏肉\，笑谈渴饮匈奴血\。待从头\、收拾旧山河\，朝天阙\。\&lt;\/p\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;阅读\&lt;i\&gt;\(400\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;评论\&lt;i\&gt;\(300\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;转发\&lt;i\&gt;\(200\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;收藏\&lt;i\&gt;\(100\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;查看全文\&amp;gt\;\&amp;gt\;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/article\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;article\&gt;\n\	\	\	\	\	\&lt;h2\&gt;破阵子\·为陈同甫赋壮词以寄之\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;h3\&gt;发表时间\：2018\-11\-22\&lt;\/h3\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;div class\=\&quot;pare\&quot;\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;醉里挑灯看剑\，梦回吹角连营\。八百里分麾下炙\，五十弦翻塞外声\。沙场秋点兵\。\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;马作的卢飞快\，弓如霹雳弦惊\。了却君王天下事\，赢得生前身后名\。可怜白发生\! \&lt;\/p\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;阅读\&lt;i\&gt;\(400\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;评论\&lt;i\&gt;\(300\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;转发\&lt;i\&gt;\(200\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;收藏\&lt;i\&gt;\(100\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;查看全文\&amp;gt\;\&amp;gt\;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/article\&gt;\	\n\	\	\	\	\n\	\	\	\	\&lt;article\&gt;\n\	\	\	\	\	\&lt;h2\&gt;西江月\·夜行黄沙道中\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;h3\&gt;发表时间\：2018\-11\-22\&lt;\/h3\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;div class\=\&quot;pare\&quot;\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;明月别枝惊鹊\，清风半夜鸣蝉\。稻花香里说丰年\，听取蛙声一片\。\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p\&gt;七八个星天外\，两三点雨山前\。旧时茅店社林边\，路转溪桥忽见\。\&lt;\/p\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\n\	\	\	\	\	\&lt;ul\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;阅读\&lt;i\&gt;\(400\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;评论\&lt;i\&gt;\(300\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;转发\&lt;i\&gt;\(200\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;收藏\&lt;i\&gt;\(100\)\&lt;\/i\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#\&quot;\&gt;\&lt;i\&gt;查看全文\&amp;gt\;\&amp;gt\;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/article\&gt;\	\n\	\	\	    \&lt;\/section\&gt;\n\	\	\n\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\n\	\	\	\	\&lt;div class\=\&quot;clear\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\n\	\	\&lt;\/div\&gt;\n\	\	\&lt;footer\&gt;\n\	\	       \&lt;p\&gt; Copyright \© 20171508135付强\. All rights reserved\.\&lt;\/p\&gt;\n\	\	\&lt;\/footer\&gt;\n\	\	\n\	\&lt;\/body\&gt;\n\&lt;\/html\&gt;\n</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/blogphoto.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/bolgpeople.html" />
+        <option value="$PROJECT_DIR$/pages/bloglist.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="409" />
+    <option name="y" value="1" />
+    <option name="width" value="1287" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BlogPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlogPage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlogPage" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/个人博客模板《tree》" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HTML\BlogPage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/BlogPage/index.html">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70f020bd-fe10-4fca-9eee-1edbbae68550" name="Default Changelist" comment="" />
+      <created>1544007445900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544007445900</updated>
+      <workItem from="1544007447179" duration="244000" />
+      <workItem from="1544009031788" duration="5903000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6147000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.44701988" visible="true" weight="0.10363248" />
+      <window_info id="Favorites" order="1" sideWeight="0.5529801" side_tool="true" weight="0.14155982" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21962096" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3200883" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.19977924" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5529801" weight="0.31912443" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/touxiang.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg_bar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blogphoto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bolgpeople.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bloglist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="89" column="97" selection-start-line="89" selection-start-column="97" selection-end-line="89" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

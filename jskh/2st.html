@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		
+	</head>
+	<body>
+		<p>你还可以输入<i id="i1" style="color: red;">100</i> 个字符</p>
+		<textarea id="t1"maxlength="100"></textarea>
+		<script>
+			$(function(){
+				$("#t1").keyup(function(){
+					
+					if($("#t1").val().length<100){
+							$("#i1").text(100-$("#t1").val().length);
+					}else{
+						alert("文本不能超过100个字符！");
+						
+					}
+				
+						
+						
+					
+					
+				});
+				
+					
+					
+				
+				
+				 
+				
+			});
+			
+			
+		</script>
+		
+		
+	</body>
+</html>
